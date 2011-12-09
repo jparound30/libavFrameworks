@@ -1,0 +1,20 @@
+README
+------
+
+
+1) Licensing
+------------
+
+Licensing of frameworks are comply with Libav's License.
+* See the Libav's LICENSE file.
+
+Default is LGPL version 2.1 or later.
+
+
+
+TODO
+----
+1) framework versioning
+2) framework installer
+
+
