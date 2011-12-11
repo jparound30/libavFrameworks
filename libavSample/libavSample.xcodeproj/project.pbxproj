@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		037FBE10149444E6003BF09D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037FBE0F149444E6003BF09D /* Cocoa.framework */; };
+		037FBE1A149444E6003BF09D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 037FBE18149444E6003BF09D /* InfoPlist.strings */; };
+		037FBE1C149444E6003BF09D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 037FBE1B149444E6003BF09D /* main.m */; };
+		037FBE20149444E6003BF09D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 037FBE1E149444E6003BF09D /* Credits.rtf */; };
+		037FBE23149444E6003BF09D /* AVDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 037FBE22149444E6003BF09D /* AVDemoAppDelegate.m */; };
+		037FBE26149444E6003BF09D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 037FBE24149444E6003BF09D /* MainMenu.xib */; };
+		037FBE3B149445CC003BF09D /* libavcodec.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037FBE35149445CC003BF09D /* libavcodec.framework */; };
+		037FBE3C149445CC003BF09D /* libavdevice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037FBE36149445CC003BF09D /* libavdevice.framework */; };
+		037FBE3D149445CC003BF09D /* libavfilter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037FBE37149445CC003BF09D /* libavfilter.framework */; };
+		037FBE3E149445CC003BF09D /* libavformat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037FBE38149445CC003BF09D /* libavformat.framework */; };
+		037FBE3F149445CC003BF09D /* libavutil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037FBE39149445CC003BF09D /* libavutil.framework */; };
+		037FBE40149445CC003BF09D /* libswscale.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037FBE3A149445CC003BF09D /* libswscale.framework */; };
+		037FBE42149445D5003BF09D /* VideoDecodeAcceleration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037FBE41149445D5003BF09D /* VideoDecodeAcceleration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		037FBE0B149444E6003BF09D /* libavSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = libavSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		037FBE0F149444E6003BF09D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		037FBE12149444E6003BF09D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		037FBE13149444E6003BF09D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		037FBE14149444E6003BF09D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		037FBE17149444E6003BF09D /* libavSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "libavSample-Info.plist"; sourceTree = "<group>"; };
+		037FBE19149444E6003BF09D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		037FBE1B149444E6003BF09D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		037FBE1D149444E6003BF09D /* libavSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libavSample-Prefix.pch"; sourceTree = "<group>"; };
+		037FBE1F149444E6003BF09D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		037FBE21149444E6003BF09D /* AVDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVDemoAppDelegate.h; sourceTree = "<group>"; };
+		037FBE22149444E6003BF09D /* AVDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVDemoAppDelegate.m; sourceTree = "<group>"; };
+		037FBE25149444E6003BF09D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		037FBE35149445CC003BF09D /* libavcodec.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libavcodec.framework; path = "../../../../../Users/nico/Library/Developer/Xcode/DerivedData/libavFrameworks-cqkyaurxoxnuekgmorosxniucxef/Build/Products/Debug/libavcodec.framework"; sourceTree = "<group>"; };
+		037FBE36149445CC003BF09D /* libavdevice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libavdevice.framework; path = "../../../../../Users/nico/Library/Developer/Xcode/DerivedData/libavFrameworks-cqkyaurxoxnuekgmorosxniucxef/Build/Products/Debug/libavdevice.framework"; sourceTree = "<group>"; };
+		037FBE37149445CC003BF09D /* libavfilter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libavfilter.framework; path = "../../../../../Users/nico/Library/Developer/Xcode/DerivedData/libavFrameworks-cqkyaurxoxnuekgmorosxniucxef/Build/Products/Debug/libavfilter.framework"; sourceTree = "<group>"; };
+		037FBE38149445CC003BF09D /* libavformat.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libavformat.framework; path = "../../../../../Users/nico/Library/Developer/Xcode/DerivedData/libavFrameworks-cqkyaurxoxnuekgmorosxniucxef/Build/Products/Debug/libavformat.framework"; sourceTree = "<group>"; };
+		037FBE39149445CC003BF09D /* libavutil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libavutil.framework; path = "../../../../../Users/nico/Library/Developer/Xcode/DerivedData/libavFrameworks-cqkyaurxoxnuekgmorosxniucxef/Build/Products/Debug/libavutil.framework"; sourceTree = "<group>"; };
+		037FBE3A149445CC003BF09D /* libswscale.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libswscale.framework; path = "../../../../../Users/nico/Library/Developer/Xcode/DerivedData/libavFrameworks-cqkyaurxoxnuekgmorosxniucxef/Build/Products/Debug/libswscale.framework"; sourceTree = "<group>"; };
+		037FBE41149445D5003BF09D /* VideoDecodeAcceleration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoDecodeAcceleration.framework; path = System/Library/Frameworks/VideoDecodeAcceleration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		037FBE08149444E6003BF09D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037FBE42149445D5003BF09D /* VideoDecodeAcceleration.framework in Frameworks */,
+				037FBE3B149445CC003BF09D /* libavcodec.framework in Frameworks */,
+				037FBE3C149445CC003BF09D /* libavdevice.framework in Frameworks */,
+				037FBE3D149445CC003BF09D /* libavfilter.framework in Frameworks */,
+				037FBE3E149445CC003BF09D /* libavformat.framework in Frameworks */,
+				037FBE3F149445CC003BF09D /* libavutil.framework in Frameworks */,
+				037FBE40149445CC003BF09D /* libswscale.framework in Frameworks */,
+				037FBE10149444E6003BF09D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037FBE00149444E6003BF09D = {
+			isa = PBXGroup;
+			children = (
+				037FBE41149445D5003BF09D /* VideoDecodeAcceleration.framework */,
+				037FBE35149445CC003BF09D /* libavcodec.framework */,
+				037FBE36149445CC003BF09D /* libavdevice.framework */,
+				037FBE37149445CC003BF09D /* libavfilter.framework */,
+				037FBE38149445CC003BF09D /* libavformat.framework */,
+				037FBE39149445CC003BF09D /* libavutil.framework */,
+				037FBE3A149445CC003BF09D /* libswscale.framework */,
+				037FBE15149444E6003BF09D /* libavSample */,
+				037FBE0E149444E6003BF09D /* Frameworks */,
+				037FBE0C149444E6003BF09D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		037FBE0C149444E6003BF09D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				037FBE0B149444E6003BF09D /* libavSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		037FBE0E149444E6003BF09D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				037FBE0F149444E6003BF09D /* Cocoa.framework */,
+				037FBE11149444E6003BF09D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		037FBE11149444E6003BF09D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				037FBE12149444E6003BF09D /* AppKit.framework */,
+				037FBE13149444E6003BF09D /* CoreData.framework */,
+				037FBE14149444E6003BF09D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		037FBE15149444E6003BF09D /* libavSample */ = {
+			isa = PBXGroup;
+			children = (
+				037FBE21149444E6003BF09D /* AVDemoAppDelegate.h */,
+				037FBE22149444E6003BF09D /* AVDemoAppDelegate.m */,
+				037FBE24149444E6003BF09D /* MainMenu.xib */,
+				037FBE16149444E6003BF09D /* Supporting Files */,
+			);
+			path = libavSample;
+			sourceTree = "<group>";
+		};
+		037FBE16149444E6003BF09D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				037FBE17149444E6003BF09D /* libavSample-Info.plist */,
+				037FBE18149444E6003BF09D /* InfoPlist.strings */,
+				037FBE1B149444E6003BF09D /* main.m */,
+				037FBE1D149444E6003BF09D /* libavSample-Prefix.pch */,
+				037FBE1E149444E6003BF09D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		037FBE0A149444E6003BF09D /* libavSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 037FBE29149444E6003BF09D /* Build configuration list for PBXNativeTarget "libavSample" */;
+			buildPhases = (
+				037FBE07149444E6003BF09D /* Sources */,
+				037FBE08149444E6003BF09D /* Frameworks */,
+				037FBE09149444E6003BF09D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libavSample;
+			productName = libavSample;
+			productReference = 037FBE0B149444E6003BF09D /* libavSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		037FBE02149444E6003BF09D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 037FBE05149444E6003BF09D /* Build configuration list for PBXProject "libavSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 037FBE00149444E6003BF09D;
+			productRefGroup = 037FBE0C149444E6003BF09D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				037FBE0A149444E6003BF09D /* libavSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		037FBE09149444E6003BF09D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037FBE1A149444E6003BF09D /* InfoPlist.strings in Resources */,
+				037FBE20149444E6003BF09D /* Credits.rtf in Resources */,
+				037FBE26149444E6003BF09D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		037FBE07149444E6003BF09D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037FBE1C149444E6003BF09D /* main.m in Sources */,
+				037FBE23149444E6003BF09D /* AVDemoAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		037FBE18149444E6003BF09D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				037FBE19149444E6003BF09D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		037FBE1E149444E6003BF09D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				037FBE1F149444E6003BF09D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		037FBE24149444E6003BF09D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				037FBE25149444E6003BF09D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		037FBE27149444E6003BF09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		037FBE28149444E6003BF09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		037FBE2A149444E6003BF09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"/Users/nico/Library/Developer/Xcode/DerivedData/libavFrameworks-cqkyaurxoxnuekgmorosxniucxef/Build/Products/Debug\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libavSample/libavSample-Prefix.pch";
+				INFOPLIST_FILE = "libavSample/libavSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		037FBE2B149444E6003BF09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"/Users/nico/Library/Developer/Xcode/DerivedData/libavFrameworks-cqkyaurxoxnuekgmorosxniucxef/Build/Products/Debug\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libavSample/libavSample-Prefix.pch";
+				INFOPLIST_FILE = "libavSample/libavSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		037FBE05149444E6003BF09D /* Build configuration list for PBXProject "libavSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037FBE27149444E6003BF09D /* Debug */,
+				037FBE28149444E6003BF09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		037FBE29149444E6003BF09D /* Build configuration list for PBXNativeTarget "libavSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037FBE2A149444E6003BF09D /* Debug */,
+				037FBE2B149444E6003BF09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 037FBE02149444E6003BF09D /* Project object */;
+}
