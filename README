@@ -11,6 +11,21 @@ Licensing of frameworks are comply with Libav's License.
 Default is LGPL version 2.1 or later.
 
 
+2) Build
+
+Clone repositories.
+
+ git clone git://github.com/jparound30/libavFrameworks.git
+ cd libavFrameworks
+ git submodule update libav
+
+Open workspace by Xcode.
+
+ open -a Xcode libavFrameworks.xcworkspace
+
+and Build.
+
+
 
 TODO
 ----
